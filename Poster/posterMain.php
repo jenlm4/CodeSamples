@@ -10,7 +10,7 @@
 	
 	Objectives demonstrated:  creating a Web page in PHP, creation of a Web page based on passed data
 	
-	Files used: abstractOrange_150.jpg, abstractOrange_1280.jpg, abstractSwirl_150.png, abstractSwirl_1280.png, poster.css, poster.php, posterMain.php, Sombrery_Galaxy_180.jpg, Sombrery_Galaxy_1280.jpg	
+	Files used: abstractOrange_150.jpg, abstractOrange_1280.jpg, abstractSwirl_150.png, abstractSwirl_1280.png, poster.css, poster.php, posterMain.php, Sombrero_Galaxy_180.jpg, Sombrero_Galaxy_1280.jpg	
 	-->
 
 	<link href="poster.css" rel="stylesheet" type="text/css">
