@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>E17 U02A</title>
+	<!--
+	E17 Jennifer McVey U02A
+
+	Objectives: This assignment demonstrated the use of audio/visual media in HTML5.
+	-->
+	<link href="vid.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div id="bkgd"> <!-- image in background -->
+	
+		<div id="text"> <!-- text over image -->
+		
+			<section>	<!-- header -->	
+			
+				<header>
+					<h1>Let's Play Ball!</h1>
+				</header>			
+			</section>
+			
+			<section> <!-- text -->
+			
+				<p>A source of distraction for me during this spring quarter is the start of baseball. There are many things I love about baseball and one of them is its history, its been around a long time. The earliest mention of baseball was in 1791 and the earliest team to play under modern rules was in 1845, the New York Knickerbockers. Professional baseball began in 1869 when the National Association of Base Ball Players (NABBP) established a professional category.</p>
+				<p>The video clip is of the 1918 Oakland Oaks opening day festivities (there is no sound). J Cal Ewing, pictured at the start of the clip - the white haired man standing alongside the car - was the owner of the Oaks and the San Francisco Seals in the early 20th century and a major influence in the Pacific Coast League (PCL). The PCL still exists, now as one of the AAA leagues for professional clubs. Until the 1940s, it was a premiere West Coast baseball league. The popularity of the PCL prompted the MLB and its owners to move clubs like the Giants and the Dodgers to California in the 1960s. The pitcher in the clip is actually a dancer "Doraldina" and the catcher is "Pop" Anson, part of the opening day festivities, 1918 style.</p>			
+				<p>The audio clip is of Bobby Thomson's pennant-winning three run home run for the Giants in 1951. It was known as the "Shot Heard Round the World". Bobby Thomson was a Scottish-born outfielder who was known as "The Staten Island Scot".</p> 
+				<p>Going to watch baseball, for me, is a special event. I'll always remember the first time I saw the field at Safeco, my first time in a professional ball park. I even go to the Kitsap BlueJackets games at the Fairgrounds. When you look in the stands you see all kinds, from infants to octogenarians, out for a beautiful day at the park.</p>			
+			</section>
+			
+			<section>	<!-- attribution and link to license for photo -->
+				<div id="attrib">
+					image by Andrei Niemimaki @ flickr.com, https://creativecommons.org/licenses/by-sa/2.0/legalcode
+				</div> <!-- end #attrib -->
+			</section>
+			
+		</div> <!-- end #text -->
+		
+		   <section> <!-- audio/video -->
+		   
+				<!-- video of Oakland Oaks 1918 opening day, ogg and mp4 formats -->
+				<video width="30%" height="auto" controls>   
+			  		<source src="OaklandO1918_512kb.mp4" type="video/mp4">
+			  		<source src="OaklandO1918.ogv" type="video/ogg">
+					<p>Your browser does not support the video tag.</p>
+				</video>	
+				
+				<!-- audio of 'shot heard round the world', mpeg and ogg formats -->
+				<audio controls>
+				  <source src="homerroundworld.mp3" type="audio/mpeg">
+				  <source src="homerroundworld.ogg" type="audio/ogg">
+				  <p>Your browser does not support the audio element.</p>
+				</audio> 
+				
+		   </section>
+		
+	</div> <!-- end #bkgd -->
+
+</body>
+</html>

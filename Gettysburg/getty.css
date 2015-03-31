@@ -1,0 +1,46 @@
+									/* Body Styles */
+body
+{
+	background-color: #CEC0AD;
+	font-family: Georgia, serif;
+	font-size: 105%;
+}
+									/* h1 Styles */
+h1
+{
+	text-align: center;
+}
+
+#background                 /* Background Image */
+{
+	background: url('gettysburgSunset.jpg') no-repeat; 
+	width: 1015px;                                    
+	height: 674px;
+	margin:100px auto;
+	position: relative;                          /* Make content relative to #background */
+}
+
+#box                          /* Inner Box */
+{
+	width:850px;
+	height: 559px;
+	margin:3.5%;                                 /* Center box on background*/
+	padding-top:1.5%;                            /* Center text in box */
+	padding-bottom:2.5%;
+	padding-left:4.5%;
+	padding-right:4%;
+	font-weight:bold;                            /*Styling to text*/
+	color:#cec0ad;                               /* Text color */
+	font-size:110%;
+	background-color:rgba(99,99,99,0.4);         /*Text background dark gray with opacity*/
+	position:absolute;                           /*Make content absolute in ref to background*/
+}	
+	
+#at                        /* Image Attribute */
+{
+	margin-left: 2%;
+	margin-top:63%;
+	font-size: 35%;
+	color:#83513E;
+	position:absolute;                           /*Make absolute to background*/
+}

@@ -1,0 +1,64 @@
+/* Body styles */
+body
+{
+	background-color: #bd2f21;
+}
+
+/* Background image */
+#bkgd
+{
+	width: 1500px;
+	height: 708px;
+	background: #ffffff url(gloveCrop.jpg) no-repeat;
+	margin: 6% auto;
+	position: relative;
+	border-radius: 10px;
+}
+
+/* Text styles */
+#text
+{
+	margin: 1% 1%;
+	position: absolute;  /* Make text relative to background image */
+}
+@font-face {
+    font-family: 'strike_em_outregular';
+    src: url('strike-em-out-webfont.eot');
+    src: url('strike-em-out-webfont.eot?#iefix') format('embedded-opentype'),
+         url('strike-em-out-webfont.woff') format('woff'),
+         url('strike-em-out-webfont.ttf') format('truetype'),
+         url('strike-em-out-webfont.svg#strike_em_outregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 220%;
+	color: #e22b1d;
+	font-family: 'strike_em_outregular', Garamond, serif;
+	letter-spacing: 2px;
+}
+
+/* Styling of attribute */
+#attrib
+{
+	margin-top: 23.5%;
+	margin-left: 82%;
+	font-size: 30%;
+}
+
+/* Audio and video style */
+video
+{
+	position: absolute;  /* Make video relative to background image */
+	margin-top: 24%;
+	margin-left: 2%;
+}
+audio
+{
+	position: absolute;  /* Make audio relative to background image */
+	margin-top: 24%;
+	margin-left: 34%;	
+}

@@ -1,0 +1,49 @@
+body
+{
+	margin-top:5.5%;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	background-color:#C6C8C2;
+	background-image: url('flowerR.jpg'), url('flowerL.jpg');
+	background-position: center left, center right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#707480;	
+}
+
+h1
+{
+	text-align: center;
+}
+
+table
+{
+	border-collapse: collapse;
+	table-layout: fixed;
+	width:100%;
+	background-color:#BDC160;	
+}
+
+th, td
+{
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+}
+
+th
+{
+	vertical-align: top;
+}
+
+.align
+{	
+	text-align: left; 
+	vertical-align: top;
+}
+
+#specDate
+{
+	background-color: #C5D084;
+}
