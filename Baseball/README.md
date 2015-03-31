@@ -1,2 +1,3 @@
-# SchoolProjects
-My code samples from school ending June 2014.
+# Baseball
+
+Objective: This assignment demonstrated the use of audio/visual media in HTML5.
